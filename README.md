@@ -13,12 +13,14 @@ A simple password generator. Click a button to get a new 12-character password, 
 
 ## ✨ Features
 
-- ⚡ Generates a new 12-character password on every click
+- ⚡ Generates a new custom-characters password on every click
 - 🔤 Mixes uppercase letters, lowercase letters, numbers and symbols
 - ✅ Every password has at least one of each type
 - 📋 Copy button for the password
 - 🎨 Clean dark design with a green accent
 - 🚫 No libraries or frameworks
+- 🎚️ Adjustable password length (8 to 32 characters) using a range slider
+- ✅ "Copied!" confirmation message when the password is copied
 
 ## 🔧 Built With
 
@@ -53,6 +55,8 @@ Random-Password-Generator-JavaScript-Uzi-Solutions/
 - Making sure each password has all four character types
 - Updating an input box from JavaScript
 - Copying text from an input box
+- Reading an `<input type="range">` value with JavaScript and updating the UI live
+- Showing and hiding a message with a CSS class and `setTimeout`
 
 ## 📌 Good to Know
 
