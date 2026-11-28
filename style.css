@@ -42,6 +42,18 @@ body {
     border-radius: 5px;
 }
 
+.container .display #copied {
+    color: #019f55;
+    font-size: 18px;
+    margin-right: 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.container .display #copied.show {
+    opacity: 1;
+}
+
 .container .display input {
     border: none;
     outline: none;
@@ -54,6 +66,18 @@ body {
 .container .display #copy {
     width: 30px;
     margin-right: 20px;
+    cursor: pointer;
+}
+
+.container .length-box {
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+.container .length-box input {
+    width: 100%;
+    margin-top: 10px;
+    accent-color: #019f55;
     cursor: pointer;
 }
 
